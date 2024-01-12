@@ -29,7 +29,7 @@ jobs:
           run: 'pwd'
              
         - name: Show all files
-          run: 'ls-la'
+          run: 'ls-al'
 
         - name: Install Dependencies
           run: 'mvn compile'
