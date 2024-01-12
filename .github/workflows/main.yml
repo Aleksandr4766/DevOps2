@@ -7,12 +7,12 @@ on:
      - jenk
   workflow_dispatch:
 jobs:
- Myjobs:
-  runs-on: ubuntu-latest
+  myjob:
+    runs-on: ubuntu-latest
         
-  steps:
+    steps:
         - name: Set up JDK 17 
-          uses: actions/setup-java@v3
+        - uses: actions/setup-java@v3
           with:
               java-version: '17'
               distribution: 'zulu'
