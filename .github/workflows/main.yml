@@ -22,8 +22,8 @@ jobs:
                
         - name: Check out repository code
           uses: actions/checkout@v3   
-    with:
-          ref: jenk
+          with:
+             ref: jenk
 
         - name: Show current directory
           run: 'pwd'
